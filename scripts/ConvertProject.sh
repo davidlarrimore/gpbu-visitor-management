@@ -19,8 +19,3 @@ rm -r ./mdapipkg
 
 echo "*** Pushing metadata to scratch org ..."
 sfdx force:source:deploy -p force-app -u MyComponentsScratch
-
-
-# Dependent Packages
-# Unnoficial SF Flows HR: 04t1K000002J0KK
-# Flow Header & Foote: 04t1t0000034vZjAAI

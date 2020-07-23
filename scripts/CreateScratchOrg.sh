@@ -4,6 +4,10 @@ sfdx force:org:create -f config/project-scratch-def.json --setdefaultusername --
 echo "*** Opening scratch org ..."
 #sfdx force:org:open
 
+echo "*** Installing Dependent Packages ..."
+sfdx force:package:install --package 04t1t0000034vZjAAI -w 1000 -u MyComponentsScratch
+sfdx force:package:install --package 04t1K000002J0KK -w 1000 -u MyComponentsScratch
+
 echo "*** Pushing metadata to scratch org ..."
 sfdx force:source:push
 
