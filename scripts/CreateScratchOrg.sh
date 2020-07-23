@@ -7,6 +7,7 @@ echo "*** Opening scratch org ..."
 echo "*** Installing Dependent Packages ..."
 sfdx force:package:install --package 04t1t0000034vZjAAI -w 1000 -u MyComponentsScratch
 sfdx force:package:install --package 04t1K000002J0KK -w 1000 -u MyComponentsScratch
+#sfdx force:package:install --package 04t6C000000HrR5 -w 1000 -u MyComponentsScratch
 
 echo "*** Pushing metadata to scratch org ..."
 sfdx force:source:push
