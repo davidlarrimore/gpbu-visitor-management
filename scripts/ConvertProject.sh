@@ -6,7 +6,7 @@ sfdx force:mdapi:retrieve -s -r ./mdapipkg -p "visitor_management" -u CrisisMana
 
 echo "*** Cleaning up ..."
 cd mdapipkg
-unzip unpackaged.zip -d
+unzip ./unpackaged.zip -d ./
 rm unpackaged.zip
 cd ../
 
@@ -18,4 +18,4 @@ rm -r ./mdapipkg
 
 
 echo "*** Pushing metadata to scratch org ..."
-sfdx force:source:push
+sfdx force:source:deploy -p force-app -u MyComponentsScratch
