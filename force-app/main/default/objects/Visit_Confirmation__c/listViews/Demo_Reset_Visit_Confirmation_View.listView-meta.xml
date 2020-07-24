@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Reset_Visit_Confirmation_View</fullName>
+    <columns>NAME</columns>
+    <columns>Event_Start_DateTime__c</columns>
+    <columns>Event_Subject__c</columns>
+    <columns>Event_Type__c</columns>
+    <columns>Contact__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>Facility__c</columns>
+    <columns>Confirmed__c</columns>
+    <columns>Demo_Reset_Week_Offset__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Hand_Crafted_for_Demo_Scenario__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Demo Reset Visit Confirmation View</label>
+</ListView>

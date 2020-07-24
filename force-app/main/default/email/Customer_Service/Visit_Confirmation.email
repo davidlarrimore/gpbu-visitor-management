@@ -1,0 +1,34 @@
+<table border="0" cellpadding="5" width="650" cellspacing="0" height="550" >
+<tr valign="top" height="100" >
+<td style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="100%" cellspacing="0" height="100%" >
+<tr valign="top" height="100" >
+<td width="650" tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial" style=""><span style="font-size: 12pt;">Hi </span>{!Visit_Confirmation__c.First_Name__c}<span style="font-size: 12pt;">,</span></font><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span textcolor="#333333" style="color: #333333">We are excited to see you for your visit. Before you come, please complete our online visit confirmation form. This form must be completed prior to your visit.</span></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><div style="font-size: 12pt;"><br><table width="100%" cellspacing="0" cellpadding="0" style="min-width: 100%;"><tbody><tr><td style="padding: 0px 20px;"><table width="100%" cellspacing="0" cellpadding="0" style="min-width: 100%;"><tbody><tr><td style="padding: 0px;"><table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td align="center"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td bgcolor="#215CA1" style="border-radius: 5px;"><font face="Arial, helvetica, sans-serif"><span style="text-align: center; display: block; line-height: 16px; border-color: transparent; border-image: initial; padding: 15px 30px; border-radius: 5px; background-color: rgb(51, 204, 255);"><a href="{!Visit_Confirmation__c.URL__c}">Confirm your Visit Now!</a></span></font></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><div style="font-size: 12pt;"><span style="color: rgb(34, 34, 34); font-size: 12pt; font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);"><br></span></div></div>]]></td>
+</tr>
+<tr height="15" >
+<td style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" >
+<![CDATA[]]></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr valign="top" height="450" >
+<td style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="100%" cellspacing="5" height="100%" >
+<tr valign="top" height="225" >
+<td width="50%" tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<span style="color: rgb(0, 0, 0); font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);"><b style=""><font color="#000099">Directions to get to this Facility</font></b></span><div style=""><ul><li><font color="#222222" face="Roboto, RobotoDraft, Helvetica, Arial, sans-serif"><span style="background-color: rgb(255, 255, 255);"><b>From the North</b>:&nbsp;</span></font>Take a left on i-95 and its a straight shot up the parkway.</li><li><b>From the South</b>: Take a right on i-95 and its a straight shot up the parkway.</li></ul></div>]]></td>
+<td width="50%" tEditID="c2r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r2" locked="0" >
+<![CDATA[<b style=""><font color="#000099">Pack light and get ready to Park</font></b><div><br></div><div>This facility does not allow certain equipment please click <a href="http://google.com">here</a> for more info:</div>]]></td>
+</tr>
+<tr valign="top" height="225" >
+<td width="50%" tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<b><font color="#000099">About this Facility</font></b><div><br></div><div>Built in 1988, this facility was a feat of engineering topped with an innovative architecture style for the time. Learn more here.<ul style="color: rgb(34, 34, 34); font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);"></ul></div>]]></td>
+<td width="50%" tEditID="c2r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r3" locked="0" >
+<![CDATA[<b style=""><font color="#000099">Questions or concerns?</font></b><div><span style="color: rgb(34, 34, 34); font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);"><br></span></div><div><span style="color: rgb(34, 34, 34); font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);">We take questions and concerns very seriously, please submit an online request <a href="http://google.com">here </a>if you have any questions</span></div><div><br></div>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

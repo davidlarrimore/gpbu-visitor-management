@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Floor__c</fullName>
+    <externalId>false</externalId>
+    <formula>Office_Facility__r.Name   &amp; &quot;-&quot; &amp; MID(MID(Room__r.Name ,5,6),0,FIND(&quot;-&quot;,MID(Room__r.Name,5,6))-1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Floor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

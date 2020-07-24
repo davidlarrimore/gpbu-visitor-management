@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Floor__c</fullName>
+    <description>Formula to compute the floor number of a room given the room number is &lt;3-character facility&gt;-&lt;floor number&gt;-&lt;room number&gt;. Set to a text value so that Einstein Analytics won&apos;t think it&apos;s a measure.</description>
+    <externalId>false</externalId>
+    <formula>Facility__r.Name &amp; &quot;-&quot; &amp; MID(MID(Name,5,6),0,FIND(&quot;-&quot;,MID(Name,5,6))-1)</formula>
+    <label>Floor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

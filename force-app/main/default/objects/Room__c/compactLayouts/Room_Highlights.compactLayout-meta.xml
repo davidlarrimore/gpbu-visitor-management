@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Room_Highlights</fullName>
+    <fields>Name</fields>
+    <label>Room Highlights</label>
+</CompactLayout>

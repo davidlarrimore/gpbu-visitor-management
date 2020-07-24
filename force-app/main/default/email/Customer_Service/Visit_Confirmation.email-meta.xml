@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Vendor receives email to confirm contact information (Visit Confirmation in Service Community)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Default_Corporate_Letterhead</letterhead>
+    <name>Visit Confirmation</name>
+    <style>newsletter</style>
+    <subject>Please confirm your information for your upcoming visit</subject>
+    <textOnly>Hi {!Visit_Confirmation__c.First_Name__c},
+
+We are excited to see you for your visit. Before you come, please complete our online visit confirmation form. This form must be completed prior to your visit.
+
+Click here to confirm your visit: {!Visit_Confirmation__c.URL__c}
+
+Directions to get to this Facility
+
+From the North: Take a left on i-95 and its a straight shot up the parkway.
+From the South: Take a right on i-95 and its a straight shot up the parkway.
+Pack light and get ready to Park
+
+This facility does not allow certain equipment please click here for more info:
+About this Facility
+
+Built in 1988, this facility was a feat of engineering topped with an innovative architecture style for the time. Learn more here.
+Questions or concerns?
+
+We take questions and concerns very seriously, please submit an online request here if you have any questions</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

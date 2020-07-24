@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Flag__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE( 
+CASE( Confirmation_Status__c,
+&quot;GREEN&quot;, &quot;/img/samples/flag_green.gif&quot;,
+&quot;YELLOW&quot;, &quot;/img/samples/flag_yellow.gif&quot;,
+&quot;RED&quot;, &quot;/img/samples/flag_red.gif&quot;, 
+&quot;/s.gif&quot;), 
+&quot;Priority Flag&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status Flag</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

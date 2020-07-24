@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Used to define the community urls used in the Crisis demo so they can be leveraged in email templates, etc. and updated for trialforce orgs in one place</description>
+    <enableFeeds>false</enableFeeds>
+    <label>PBU Community URLs</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Status_Narrative__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;The &quot; &amp;  Facility_Name__c &amp; &quot; (&quot; &amp; Name &amp; &quot;) office is &quot; &amp; UPPER( TEXT(Facility_Status__c)) &amp; &quot; (Updated &quot; &amp;  TEXT(DATEVALUE(LastModifiedDate))  &amp; &quot;)&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Facility Status Narrative</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

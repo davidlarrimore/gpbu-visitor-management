@@ -1,7 +1,7 @@
 {
   "orgName": "Salesforce",
   "edition": "Developer",
-  "features": ["Communities","LightningScheduler"],
+  "features": ["Communities","LightningScheduler", "ServiceCloud"],
   "settings": {
     "lightningExperienceSettings": {
         "enableS1DesktopEnabled": true

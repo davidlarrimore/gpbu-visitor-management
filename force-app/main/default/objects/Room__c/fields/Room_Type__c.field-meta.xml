@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Room_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Room Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Closet</fullName>
+                <default>false</default>
+                <label>Closet</label>
+            </value>
+            <value>
+                <fullName>Communal Space</fullName>
+                <default>false</default>
+                <label>Communal Space</label>
+            </value>
+            <value>
+                <fullName>Conference Room</fullName>
+                <default>false</default>
+                <label>Conference Room</label>
+            </value>
+            <value>
+                <fullName>Cubicle</fullName>
+                <default>false</default>
+                <label>Cubicle</label>
+            </value>
+            <value>
+                <fullName>Kitchen</fullName>
+                <default>false</default>
+                <label>Kitchen</label>
+            </value>
+            <value>
+                <fullName>Lavatory</fullName>
+                <default>false</default>
+                <label>Lavatory</label>
+            </value>
+            <value>
+                <fullName>Personal Office</fullName>
+                <default>false</default>
+                <label>Personal Office</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
