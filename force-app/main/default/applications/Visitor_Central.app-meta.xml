@@ -2,6 +2,8 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <brand>
         <headerColor>#0070D2</headerColor>
+        <logo>Untitled1</logo>
+        <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
     <formFactors>Small</formFactors>
@@ -12,12 +14,11 @@
     <navType>Console</navType>
     <tabs>Visitor_Central</tabs>
     <tabs>standard-Event</tabs>
+    <tabs>Visit_Confirmation__c</tabs>
     <tabs>Facility__c</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
-    <tabs>standard-Case</tabs>
     <tabs>standard-ProcessInstanceWorkitem</tabs>
-    <tabs>Visit_Confirmation__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
         <mappings>
@@ -31,9 +32,6 @@
         </mappings>
         <mappings>
             <tab>standard-Account</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Case</tab>
         </mappings>
         <mappings>
             <tab>standard-Contact</tab>

@@ -1,7 +1,7 @@
 {
-  "orgName": "Salesforce",
+  "orgName": "Visitor Management",
   "edition": "Developer",
-  "features": ["Communities","LightningScheduler", "ServiceCloud"],
+  "features": ["Communities","LightningScheduler", "ServiceCloud", "DefaultWorkflowUser"],
   "settings": {
     "lightningExperienceSettings": {
         "enableS1DesktopEnabled": true
