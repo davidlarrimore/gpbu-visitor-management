@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Facility__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Facility__cs.json"
+        ]
+    }
+]

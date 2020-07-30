@@ -1,0 +1,123 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "DevTech",
+            "BillingAddress": {
+                "city": "Arlington",
+                "country": "United States",
+                "geocodeAccuracy": "Address",
+                "latitude": 38.89531,
+                "longitude": -77.071876,
+                "postalCode": "22209",
+                "state": "VA",
+                "street": "1700 North Moore Street"
+            },
+            "Phone": "555-555-5555",
+            "Type": "Vendor"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Aerospace Services",
+            "BillingAddress": {
+                "city": "Montgomery",
+                "country": null,
+                "geocodeAccuracy": "Zip",
+                "latitude": 32.4067,
+                "longitude": -86.2478,
+                "postalCode": "36114",
+                "state": "Alabama",
+                "street": "32654 Bayside Center"
+            },
+            "Industry": "Manufacturing",
+            "Phone": "230-555-3883",
+            "Type": "Vendor"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "BAE Systems",
+            "BillingAddress": {
+                "city": "Madison",
+                "country": null,
+                "geocodeAccuracy": "Block",
+                "latitude": 43.155746,
+                "longitude": -89.373646,
+                "postalCode": "53779",
+                "state": "Wisconsin",
+                "street": "2589 Shoshone Drive"
+            },
+            "Industry": "Technology",
+            "Phone": "800-349-3891",
+            "Type": "Vendor"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Name": "DLQ System Integrators",
+            "BillingAddress": {
+                "city": "New Haven",
+                "country": null,
+                "geocodeAccuracy": null,
+                "latitude": null,
+                "longitude": null,
+                "postalCode": "6520",
+                "state": "Connecticut",
+                "street": "555 Heath Terrace"
+            },
+            "Industry": "Technology",
+            "Phone": "800-349-3895",
+            "Type": "Vendor"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef5"
+            },
+            "Name": "GDIT",
+            "BillingAddress": {
+                "city": "Las Vegas",
+                "country": null,
+                "geocodeAccuracy": "Zip",
+                "latitude": 36.1275,
+                "longitude": -115.3293,
+                "postalCode": "89135",
+                "state": "Nevada",
+                "street": "2388 Merchant Trail"
+            },
+            "Industry": "Manufacturing",
+            "Phone": "800-349-3896",
+            "Type": "Vendor"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef6"
+            },
+            "Name": "Government Shared Services",
+            "BillingAddress": {
+                "city": "Monticello",
+                "country": null,
+                "geocodeAccuracy": "Zip",
+                "latitude": 45.3055,
+                "longitude": -93.7938,
+                "postalCode": "55585",
+                "state": "Minnesota",
+                "street": "66 Ludington Center"
+            },
+            "Industry": "Government",
+            "Phone": "800-234-3471",
+            "Type": "Vendor"
+        }
+    ]
+}

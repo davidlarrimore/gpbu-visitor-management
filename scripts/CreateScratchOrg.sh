@@ -15,5 +15,5 @@ sfdx force:source:push
 echo "*** Generating password for your user ..."
 sfdx force:user:password:generate --targetusername MyComponentsScratch
 
-#echo "*** Creating data"
-#sfdx force:data:tree:import -f ./data/export-demo-GPBU_Package__cs.json -u MyComponentsScratch
+echo "*** Creating data"
+sfdx force:data:tree:import -f ./data/Facility__cs.json,./data/Accounts.json -u MyComponentsScratch

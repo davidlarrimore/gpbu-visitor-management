@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Room__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Room__cs.json"
+        ]
+    }
+]

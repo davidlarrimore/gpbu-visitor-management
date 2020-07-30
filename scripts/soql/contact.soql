@@ -1,0 +1,1 @@
+SELECT AccountId, Birthdate, RecordTypeId, Email, Emergency_Contact_Email__c, Emergency_Contact_Name__c, Emergency_Contact_Phone_Number__c, Emergency_Contact_Relationship__c, Floor__c, MailingAddress, Name, Office_Facility__c, Phone, Room__c, Title, User_Record__c FROM Contact WHERE RecordType.Name = 'Vendor'

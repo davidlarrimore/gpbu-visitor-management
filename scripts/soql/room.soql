@@ -1,0 +1,1 @@
+SELECT Facility__c, Name, Room_Type__c, Status__c from Room__c LIMIT 199
