@@ -16,7 +16,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>filterName</name>
-                <value>My_Upcoming_Visits</value>
+                <value>My_Upcoming_Events</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>hideActionBar</name>
