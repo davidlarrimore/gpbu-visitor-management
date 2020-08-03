@@ -19,3 +19,6 @@ rm -r ./mdapipkg
 
 echo "*** Pushing metadata to scratch org ..."
 sfdx force:source:deploy -p force-app -u MyComponentsScratch
+
+echo "*** Getting Data ..."
+sfdx sfdmu:run --sourceusername CrisisManagementProd --targetusername MyComponentsScratch --path ./data/

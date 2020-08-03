@@ -1,0 +1,31 @@
+{
+    "objects": [
+        {
+            "query": "SELECT Name, BillingAddress, Phone, Type FROM Account WHERE (Type = 'Vendor' OR Name = 'Salesforce')",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT AccountId, Birthdate, RecordTypeId, Email, Emergency_Contact_Email__c, Emergency_Contact_Name__c, Emergency_Contact_Phone_Number__c, Emergency_Contact_Relationship__c, Floor__c, MailingAddress, Name, Name.FirstName, Name.LastName, Office_Facility__c, Phone, Room__c, Title, User_Record__c FROM Contact WHERE RecordType.Name = 'Vendor'",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT ID, City__c, Country__c, County__c, Current_Occupancy__c, Directions__c, Entry_Requirements__c, Name, Facility_Name__c, Facility_Status__c, Max_Occupancy__c, Office_Hours__c, Parking__c, Photo_URL__c, State_Province__c, Street__c, Zip_Postal_Code__c FROM Facility__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT Facility__c, Name, Room_Type__c, Status__c from Room__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT Event_Subject__c, Visit_Information_Summary__c, Event_Type__c, Demo_Reset_Week_Offset__c, Room__c, Facility__c, Contact__c, Email__c, Event_Start_DateTime__c, Confirmation_Date_Time__c, Confirmed__c FROM Visit_Confirmation__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        }
+    ]
+}
+
+

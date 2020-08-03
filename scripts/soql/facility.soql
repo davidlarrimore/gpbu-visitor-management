@@ -1,2 +1,1 @@
-
 SELECT ID, City__c, Country__c, County__c, Current_Occupancy__c, Directions__c, Entry_Requirements__c, Name, Facility_Name__c, Facility_Status__c, Max_Occupancy__c, Office_Hours__c, Parking__c, Photo_URL__c, State_Province__c, Street__c, Zip_Postal_Code__c FROM Facility__c

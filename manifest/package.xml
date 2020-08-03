@@ -12,6 +12,10 @@
         <members>*</members>
         <name>ApexPage</name>
     </types>
+        <types>
+        <members>*</members>
+        <name>ListView</name>
+    </types>
     <types>
         <members>*</members>
         <name>ApexTestSuite</name>
