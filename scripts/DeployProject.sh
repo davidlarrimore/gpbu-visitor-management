@@ -12,13 +12,13 @@ echo "*** Pulling Data from Org ..."
 sfdx sfdmu:run --sourceusername MyComponentsScratch --targetusername csvfile --path ./data/
 
 echo "*** Creating JSON Files ..."
-csvtojson ./data/Account.csv > ./data/json/Account.json
-csvtojson ./data/Contact.csv > ./data/json/Contact.json
-csvtojson ./data/RecordType.csv > ./data/json/RecordType.json
-csvtojson ./data/Room__c.csv > ./data/json/Room__c.json
-csvtojson ./data/Facility_c.csv > ./data/json/Facility_c.json
-csvtojson ./data/Visit_Confirmation__c.csv > ./data/json/Visit_Confirmation__c.json
-csvtojson ./data/UserAndGroup.csv > ./data/json/UserAndGroup.json
+csvtojson ./data/Account.csv > ./force-app/main/default/staticresources/Account.json
+csvtojson ./data/Contact.csv > ./force-app/main/default/staticresources/Contact.json
+csvtojson ./data/RecordType.csv > ./force-app/main/default/staticresources/RecordType.json
+csvtojson ./data/Room__c.csv > ./force-app/main/default/staticresources/Room__c.json
+csvtojson ./data/Facility__c.csv > ./force-app/main/default/staticresources/Facility__c.json
+csvtojson ./data/Visit_Confirmation__c.csv > ./force-app/main/default/staticresources/Visit_Confirmation__c.json
+csvtojson ./data/UserAndGroup.csv > ./force-app/main/default/staticresources/UserAndGroup.json
 
 #echo "*** Creating Unlocked Package ..."
 #sfdx force:package:create --name "gPBU Component Package Manager Unlocked" --packagetype Unlocked --path "force-app"

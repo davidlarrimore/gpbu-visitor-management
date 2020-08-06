@@ -10,8 +10,7 @@
     },
     "data": {
         "loadOnInstall" : true,
-        "directory": "data",
-        "type": "csv",
-        "recursive" : true
+        "loadType" : "upsert",
+        "directory": "data"
       }    
   }
