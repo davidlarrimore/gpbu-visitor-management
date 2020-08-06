@@ -1,8 +1,7 @@
-Id,Name,BillingGeocodeAccuracy,BillingCity,BillingCountry,BillingLatitude,BillingLongitude,BillingPostalCode,BillingState,BillingStreet,Phone,Type,IsPersonAccount
-0013h000009kVq2AAE,DevTech,Address,Arlington,United States,38.89531,-77.071876,22209,VA,1700 North Moore Street,555-555-5555,Vendor,false
-0013h000007kZASAA2,Salesforce,,,,,,,,,,,false
-0013h000004qG3GAAU,Aerospace Services,Zip,Montgomery,,32.4067,-86.2478,36114,Alabama,32654 Bayside Center,230-555-3883,Vendor,false
-0013h000004qG3JAAU,BAE Systems,Block,Madison,,43.155746,-89.373646,53779,Wisconsin,2589 Shoshone Drive,800-349-3891,Vendor,false
-0013h000004qG3SAAU,DLQ System Integrators,,New Haven,,,,6520,Connecticut,555 Heath Terrace,800-349-3895,Vendor,false
-0013h000004qG3UAAU,GDIT,Zip,Las Vegas,,36.1275,-115.3293,89135,Nevada,2388 Merchant Trail,800-349-3896,Vendor,false
-0013h000004qG3VAAU,Government Shared Services,Zip,Monticello,,45.3055,-93.7938,55585,Minnesota,66 Ludington Center,800-234-3471,Vendor,false
+Id,Name,BillingGeocodeAccuracy,BillingCity,BillingCountry,BillingLatitude,BillingLongitude,BillingPostalCode,BillingState,BillingStreet,Phone,Type,GPBUDVM_Demo_Record__c,GPBUDVM_External_Id__c,Hand_Crafted_for_Demo_Scenario__c,Record_Type_Name__c
+0015500000mdxL4AAI,DevTech,Address,Arlington,United States,38.89531,-77.071876,22209,VA,1700 North Moore Street,555-555-5555,Vendor,true,0015500000mdxL4AAI,true,Vendor
+0015500000mdxL6AAI,Aerospace Services,Zip,Montgomery,,32.4067,-86.2478,36114,Alabama,32654 Bayside Center,230-555-3883,Vendor,true,0015500000mdxL6AAI,true,Vendor
+0015500000mdxL7AAI,BAE Systems,Block,Madison,,43.155746,-89.373646,53779,Wisconsin,2589 Shoshone Drive,800-349-3891,Vendor,true,0015500000mdxL7AAI,true,Vendor
+0015500000mdxL8AAI,DLQ System Integrators,,New Haven,,,,6520,Connecticut,555 Heath Terrace,800-349-3895,Vendor,true,0015500000mdxL8AAI,true,Vendor
+0015500000mdxL9AAI,GDIT,Zip,Las Vegas,,36.1275,-115.3293,89135,Nevada,2388 Merchant Trail,800-349-3896,Vendor,true,0015500000mdxL9AAI,true,Vendor
+0015500000mdxLAAAY,Government Shared Services,Zip,Monticello,,45.3055,-93.7938,55585,Minnesota,66 Ludington Center,800-234-3471,Vendor,true,0015500000mdxLAAAY,true,Vendor

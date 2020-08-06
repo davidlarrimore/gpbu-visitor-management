@@ -1,6 +1,3 @@
 Id,DeveloperName,SobjectType
-0123h000000PvoiAAC,Employee,Contact
-0123h000000s5kdAAA,Citizen,Contact
-0123h000000tAMgAAM,IndustriesIndividual,Contact
-0123h000000tAMfAAM,IndustriesBusiness,Contact
-0123h000000s5kiAAA,Vendor,Contact
+012550000017XRUAA2,Employee,Contact
+012550000017XRVAA2,Vendor,Contact

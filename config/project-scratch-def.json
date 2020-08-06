@@ -1,7 +1,7 @@
 {
-  "orgName": "Visitor Managementsfd",
+  "orgName": "Visitor Management",
   "edition": "Developer",
-  "features": ["Communities","LightningScheduler", "ServiceCloud", "DefaultWorkflowUser"],
+  "features": ["Communities","LightningScheduler", "DefaultWorkflowUser"],
   "settings": {
     "lightningExperienceSettings": {
         "enableS1DesktopEnabled": true

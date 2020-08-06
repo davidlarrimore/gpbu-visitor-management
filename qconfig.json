@@ -1,0 +1,17 @@
+{
+    "name": "GPBU Visitor Management",
+    "alias": "GPBUDVM",
+    "version": "1.0.0",
+    "description": "Salesforce App",
+    "qConfigVersion": "1.0",
+    "dependencies": {
+      "Unnoficial SF - 1": "04t1t0000034vZjAAI",
+      "Unnoficial SF - 2": "04t1K000002J0KK"
+    },
+    "data": {
+        "loadOnInstall" : true,
+        "directory": "data",
+        "type": "csv",
+        "recursive" : true
+      }    
+  }
