@@ -764,10 +764,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>RecordVisibilityAPI</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ResetPasswords</name>
     </userPermissions>
     <userPermissions>

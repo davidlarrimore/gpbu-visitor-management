@@ -27,7 +27,7 @@ csvtojson ./data/UserAndGroup.csv > ./force-app/main/default/staticresources/Dat
 
 
 echo "*** Creating Unlocked Package Version..."
-sfdx force:package:version:create --package "gPBU Component Package Manager" -x --wait 10 --codecoverage 
+sfdx force:package:version:create --package "Visitor Management Demo Scenario" -x --wait 10 --codecoverage 
 
 #echo "*** Promoting Latest Managed Package ..."
 #sfdx force:package:version:promote -p $(sfdx force:package:version:list -p 'Demo Reset Tools' -o CreatedDate --concise | tail -1 | awk '{print $3}')
