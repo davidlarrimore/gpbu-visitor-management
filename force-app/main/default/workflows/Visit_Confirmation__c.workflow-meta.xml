@@ -8,7 +8,7 @@
             <field>Email__c</field>
             <type>email</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderType>CurrentUser</senderType>
         <template>Customer_Service/Visit_Confirmation</template>
     </alerts>
 </Workflow>

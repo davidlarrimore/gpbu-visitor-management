@@ -21,19 +21,13 @@ csvtojson ./data/Visit_Confirmation__c.csv > ./force-app/main/default/staticreso
 csvtojson ./data/UserAndGroup.csv > ./force-app/main/default/staticresources/Data_UserAndGroup.json
 
 #echo "*** Creating Unlocked Package ..."
-#sfdx force:package:create --name "gPBU Component Package Manager Unlocked" --packagetype Unlocked --path "force-app"
-
-
-
+#sfdx force:package:create --name "Visitor Management Demo Scenario" --packagetype Unlocked --path "force-app"
 
 echo "*** Creating Unlocked Package Version..."
 sfdx force:package:version:create --package "Visitor Management Demo Scenario" -x --wait 10 --codecoverage 
 
-#echo "*** Promoting Latest Managed Package ..."
-#sfdx force:package:version:promote -p $(sfdx force:package:version:list -p 'Demo Reset Tools' -o CreatedDate --concise | tail -1 | awk '{print $3}')
-
 echo "*** Promoting Latest Unlocked Package ..."
-sfdx force:package:version:promote -p $(sfdx force:package:version:list -p 'gPBU Component Package Manager' -o CreatedDate --concise | tail -1 | awk '{print $3}')
+sfdx force:package:version:promote -p $(sfdx force:package:version:list -p 'Visitor Management Demo Scenario' -o CreatedDate --concise | tail -1 | awk '{print $3}')
 
 #echo "*** Pushing Package to Package Manager Org ..."
 #sfdx force:package:install --package "Demo Reset Tools@0.1.0-6" --targetusername PackageManager --installationkey test1234
