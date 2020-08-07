@@ -1,8 +1,9 @@
 {
-  "name": "salesforce-app",
-  "private": true,
+  "name": "@davidlarrimore/gpbu-visitor-management",
+  "private": false,
   "version": "1.0.0",
   "description": "Salesforce App",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "lint": "npm run lint:lwc && npm run lint:aura",
     "lint:aura": "eslint **/aura/**",
