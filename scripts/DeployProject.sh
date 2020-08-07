@@ -12,13 +12,25 @@ echo "*** Pulling Data from Org ..."
 sfdx sfdmu:run --sourceusername MyComponentsScratch --targetusername csvfile --path ./data/
 
 echo "*** Creating JSON Files ..."
-csvtojson ./data/Account.csv > ./force-app/main/default/staticresources/Data_Account.json
-csvtojson ./data/Contact.csv > ./force-app/main/default/staticresources/Data_Contact.json
-csvtojson ./data/RecordType.csv > ./force-app/main/default/staticresources/Data_RecordType.json
-csvtojson ./data/Room__c.csv > ./force-app/main/default/staticresources/Data_Room.json
-csvtojson ./data/Facility__c.csv > ./force-app/main/default/staticresources/Data_Facility.json
-csvtojson ./data/Visit_Confirmation__c.csv > ./force-app/main/default/staticresources/Data_Visit_Confirmation.json
-csvtojson ./data/UserAndGroup.csv > ./force-app/main/default/staticresources/Data_UserAndGroup.json
+for fullfile in ./data/*.csv; do
+    if [[ "$fullfile"  =~ "./data/MissingParentRecordsReport" ]];
+        then
+            echo "Skipping MissingParentRecordsReport.csv"
+        else
+            filename=$(basename -- "$fullfile")
+            extension="${filename##*.}"
+            filename="${filename%.*}"
+            filenameWithoutC="${filename//__c}"
+            echo "Exporting $filename to JSON"
+            csvtojson ./data/Account.csv > ./force-app/main/default/staticresources/Data_$filenameWithoutC.json
+            echo '<?xml version="1.0" encoding="UTF-8"?><StaticResource xmlns="http://soap.sforce.com/2006/04/metadata"><cacheControl>Public</cacheControl><contentType>application/json</contentType></StaticResource>' > ./force-app/main/default/staticresources/Data_$filenameWithoutC.resource-meta.xml
+    fi
+done
+
+echo "*** Copying Demo Config Over ..."
+cp ./demo-config.json ./force-app/main/default/staticresources/Demo_Config.json
+echo '<?xml version="1.0" encoding="UTF-8"?><StaticResource xmlns="http://soap.sforce.com/2006/04/metadata"><cacheControl>Public</cacheControl><contentType>application/json</contentType></StaticResource>' > ./force-app/main/default/staticresources/Demo_Config.resource-meta.xml
+
 
 #echo "*** Creating Unlocked Package ..."
 #sfdx force:package:create --name "Visitor Management Demo Scenario" --packagetype Unlocked --path "force-app"

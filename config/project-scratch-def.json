@@ -1,5 +1,6 @@
 {
   "orgName": "Visitor Management",
+  "description": "GPBU Visitor Management demo scenario",
   "edition": "Developer",
   "features": ["Communities","LightningScheduler", "DefaultWorkflowUser"],
   "settings": {

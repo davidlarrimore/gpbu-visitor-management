@@ -1,8 +1,11 @@
 {
     "name": "GPBU Visitor Management",
+    "description": "GPBU Visitor Management demo scenario",
+    "author": "David Larrimore",
+    "authorEmail": "dlarrimore@slaesforce.com",
     "alias": "GPBUDVM",
+    "packageType":"Demo Scenario",
     "version": "1.0.0",
-    "description": "Salesforce App",
     "qConfigVersion": "1.0",
     "dependencies": {
       "Unnoficial SF - 1": "04t1t0000034vZjAAI",
@@ -12,5 +15,10 @@
         "loadOnInstall" : true,
         "loadType" : "upsert",
         "directory": "data"
-      }    
+      },    
+    "DemoConfig": {
+      "loadOnInstall" : true,
+      "loadType" : "upsert",
+      "directory": "data"
+    }         
   }
