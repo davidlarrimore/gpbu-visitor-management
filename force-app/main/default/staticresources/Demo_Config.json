@@ -5,17 +5,10 @@
     "authorEmail": "dlarrimore@slaesforce.com",
     "alias": "GPBUDVM",
     "packageType":"Demo Scenario",
+    "version": "1.0.0",
     "data": {
         "loadOnInstall" : true,
         "loadType" : "upsert",
         "directory": "data"
-      } , 
-    "dependencies": [
-      {
-          "package": "04t1K000002J0KK"
-      },
-      {
-          "package": "04t1t0000034vZjAAI"
-      }
-    ]         
+      }     
   }
