@@ -5,6 +5,8 @@
     "authorEmail": "dlarrimore@slaesforce.com",
     "alias": "GPBUDVM",
     "packageType":"Demo Scenario",
+    "disableSourceInstall": true,
+    "disablePackageInstall": false,    
     "data": {
         "loadOnInstall" : true,
         "loadType" : "upsert",
