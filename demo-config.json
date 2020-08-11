@@ -5,6 +5,7 @@
     "authorEmail": "dlarrimore@slaesforce.com",
     "alias": "GPBUDVM",
     "packageType":"Demo Scenario",
+    "permissionSet":"Package_Manager",
     "disableSourceInstall": true,
     "disablePackageInstall": false,    
     "data": {
