@@ -11,7 +11,7 @@ echo "*** Pulling Data from Org ..."
 #sfdx force:data:tree:import -f ./data/Facility__cs.json,./data/Accounts.json -u MyComponentsScratch
 sfdx sfdmu:run --sourceusername MyComponentsScratch --targetusername csvfile --path ./data/
 
-echo "*** Creating JSON Files ..."
+echo "*** Creating JSON Files in Static Resources ..."
 for fullfile in ./data/*.csv; do
     if [[ "$fullfile"  =~ "./data/MissingParentRecordsReport" ]];
         then

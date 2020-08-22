@@ -5,9 +5,6 @@
     "authorEmail": "dlarrimore@slaesforce.com",
     "alias": "GPBUDVM",
     "packageType":"Demo Scenario",
-    "permissionSet":"Package_Manager",
-    "disableSourceInstall": true,
-    "disablePackageInstall": false,    
     "data": {
         "loadOnInstall" : true,
         "loadType" : "upsert",
@@ -15,7 +12,7 @@
       } , 
     "dependencies": [
       {
-          "package": "04t1K000002J0KKQA0"
+          "package": "04t1K000002J0KK"
       },
       {
           "package": "04t1t0000034vZjAAI"
